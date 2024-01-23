@@ -1,0 +1,52 @@
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.right-section{
+    margin-left: 150px;
+}
+.front-end{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.col-6{
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    background-color: black;
+    color: black;
+    font-size: large;
+ 
+}
+img {
+    width: 500px;
+    height: 300px;
+  }
+
+  body{
+    background-color: black;
+    color: white;
+    height: 100%;
+  }
+/*   
+  #img-1{
+
+    width: 500px;
+    height: 300px;
+
+  } */
+
+  .row{
+    
+    border: 2px solid white;
+    padding:10px;
+    
+
+  }
+
+ 

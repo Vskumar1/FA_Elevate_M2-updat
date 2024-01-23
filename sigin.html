@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+
+            </div>
+
+            <!-- login form -->
+
+            <form class="input-group" id="login">
+                <input type="text" class="input-feild" id="username" onkeyup="validateUsername()"
+                    placeholder="User id Required">
+                <br>
+                <p id="username-error" style="color: red;"> </p>
+
+
+                <input type="password" class="input-feild" id="userpassword" onkeyup="validatePassword()"
+                    placeholder="Enter Password">
+                <br>
+                <p id="password-error" style="color: red;"></p>
+
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+
+
+
+
+            <!-- Register Form -->
+
+
+
+            <form class="input-group" id="register">
+
+                <input type="text" class="input-feild" id="registername" onkeyup="validateRegistername()"
+                    placeholder="User id Required">
+                <br>
+                <p id="registerName-error" style="color: red;"> </p>
+
+                
+                
+                <!-- email id -->
+
+
+
+                <input type="email" class="input-feild" id="useremail" onkeyup="validateEmail()"
+                    placeholder="Email id Required">
+                <br>
+                <p id="email-error" style="color: red;"> </p>
+
+
+
+                 <!-- password -->
+
+
+                <input type="password" class="input-feild" id="Regpassword" onkeyup="validateRegPassword()"
+                    placeholder="Enter Password">
+                <br>
+                <p id="registerpassword-error" style="color: red;"></p>
+
+
+                 <!-- confirm password -->
+
+                <input type="password" class="input-feild" id="repeatPassword" onkeyup="validaterepeatPassword()"
+                placeholder="Confirm Password">
+                <br>
+                <p id="repeatPassword-error" style="color: red;"></p>
+
+                <button type="submit" class="submit-btn2">Register</button>
+
+
+
+
+
+
+            </form>
+
+        </div>
+
+    </div>
+    <script src="signin.js"></script>
+
+</body>
+
+</html>

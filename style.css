@@ -1,0 +1,34 @@
+body {
+    background-image: url('images\bg.jpg');
+}
+
+header {
+    background:rgb(195, 226, 194); 
+}
+
+main {
+    background:rgb(234, 236, 204);
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.content{
+    background: rgb(205, 141, 122);
+}
+
+.Intro{
+    background: rgb(219, 204, 149);
+}
+
+.footerclass{
+    background: black;
+}
+
+.btn-danger{
+    border-radius: 20%;
+    
+}

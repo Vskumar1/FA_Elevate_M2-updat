@@ -1,0 +1,16 @@
+.img-angular{
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+}
+
+.h2-vue{
+  font-size: 50px;
+  background: -webkit-linear-gradient(rgb(163, 241, 163), #635e5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 50px;
+}
